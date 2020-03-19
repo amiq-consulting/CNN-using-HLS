@@ -18,7 +18,9 @@ To generate the project for the main CNN implemention follow the steps bellow:
 ### Software used: ###
 
 OS: Ubuntu 18.04.03 LTS
+
 Vivado HLS 2018.3 - Simulation results and Synthesis
+
 Python libraries
    *   numpy - version 1.15.1
    *   tensorflow - version 1.9.0
