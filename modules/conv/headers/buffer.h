@@ -15,7 +15,7 @@
  *
  * NAME:        buffer.h
  * PROJECT:     conv
- * Description: 
+ * Description: Used to buffer first elements from an image
  *******************************************************************************/
  
 #ifndef _BUFFER_H_
