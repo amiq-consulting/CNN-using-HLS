@@ -116,7 +116,7 @@ def random_mini_batches(X, Y, mini_batch_size = 64, seed = 0):
     num_complete_minibatches = math.floor(m/mini_batch_size) # number of mini batches of size mini_batch_size in a partition
     for k in range(0, num_complete_minibatches):
 
-        mini_batch_X = shufpytfled_X[:,  mini_batch_size * k: mini_batch_size* (k+1)]
+        mini_batch_X = shuffled_X[:,  mini_batch_size * k: mini_batch_size* (k+1)]
         mini_batch_Y = shuffled_Y[:,  mini_batch_size * k: mini_batch_size* (k+1)]
 
         mini_batch = (mini_batch_X, mini_batch_Y)
