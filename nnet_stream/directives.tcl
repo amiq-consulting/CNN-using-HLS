@@ -3,7 +3,7 @@
 ## Please DO NOT edit it.
 ## Copyright (C) 1986-2018 Xilinx, Inc. All Rights Reserved.
 ############################################################
-set_directive_dataflow "nnet"
+set_directive_dataflow -disable_start_propagation "nnet"
 set_directive_unroll "conv_layer1/conv_layer1_label6"
 set_directive_unroll "conv_layer1/conv_layer1_label7"
 set_directive_unroll "conv_layer1/conv_layer1_label8"
